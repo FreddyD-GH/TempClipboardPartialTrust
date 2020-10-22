@@ -74,6 +74,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ClipboardTestApp\ClipboardTestApp.csproj">
       <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
+      <TrustLevel>Partial</TrustLevel>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
